@@ -1,13 +1,14 @@
 % resume.tex
 % vim:set ft=tex spell:
 
-\documentclass[10pt,letterpaper]{article}
+\documentclass[12pt,letterpaper]{article}
 \usepackage[letterpaper,margin=0.75in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{mdwlist}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage{tgpagella}
+\usepackage{hyperref}
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
 
@@ -43,14 +44,16 @@
 \begin{document}
 
 \begin{center}
-{\LARGE \textbf{John Q. Example}}
+{\LARGE \textbf{Jamison Dance}}
 
-151 E Wacker Drive\ \ \textbullet
-\ \ Suite\ 1001\ \ \textbullet
-\ \ Chicago, IL 60606
+345 N 400 E\ \ \textbullet
+\ \ Orem, UT 84049
 \\
-(312) 555-1212\ \ \textbullet
-\ \ test@example.com
+(801) 709-0325\ \ \textbullet
+\ \ jamison.d.dance@gmail.com
+\\
+\ \ \url{http://jamisondance.com} \ \ \textbullet
+\ \ \url{http://github.com/jergason}
 \end{center}
 
 \hrule
@@ -62,80 +65,52 @@
 
 	\item
 	\headerrow
-		{\textbf{Example Company One, LLC.}}
-		{\textbf{Chicago, IL}}
+		{\textbf{Prince Lab, Brigham Young University}}
+		{\textbf{Provo, UT}}
 	\\
 	\headerrow
-		{\emph{Software Developer \& Project Manager}}
-		{\emph{2004 -- 2010}}
+		{\emph{Software Developer \& Research Assistant}}
+		{\emph{2010 -- Present}}
 	\begin{itemize*}
-		\item Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-		diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-		erat volutpat.
-		\item Duis splople autem vel eum iriure dolor in hendrerit in vulputate
-		velit esse molestie consequat, vel illum dolore eu feugiat nulla
-		facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-		praesent luptatum zzril delenit augue duis dolore te feugait nulla
-		facilisi.
-		\item Nam liber tempor cum soluta nobis eleifend option congue nihil
-		imperdiet doming id quod mazim placerat facer possim assum. Typi non
-		habent claritatem insitam; est usus legentis in iis qui facit eorum
-		claritatem.
-		\item Investigationes demonstraverunt lectores legere me lius
-		quod ii legunt saepius. Claritas est etiam processus dynamicus, qui
-		sequitur mutationem consuetudium lectorum.
-		\item Mirum est notare quam littera gothica, quam nunc putamus parum
-		claram, anteposuerit litterarum formas humanitatis per seacula quarta
-		decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
-		clari, fiant sollemnes in futurum.
+		\item Designed and developed a Ruby on Rails web application to expose
+			scientific data via a RESTful API. See \url{http://github.com/jergason/pocketbook}.
+		\item Designed and developed a Rails application allows interactive
+			metrics tracking tracking software for a mass spectrometer. See 
+			\url{http://github.com/princelab/rails-metric_site}.
+		\item Designed web-based tools to help with scheduling time on scientific
+			instruments, making sure the instrument is used efficiently at all times.
+		\item Provided training on programming and basic Linux skills to scientists with
+			no previous experience.
 	\end{itemize*}
 
 	\item
 	\headerrow
-		{\textbf{Arch Linux}}
-		{\textbf{www.archlinux.org}}
+		{\textbf{Computer Science Department, Brigham Young University}}
+		{\textbf{Provo, UT}}
 	\\
 	\headerrow
-		{\emph{Software Developer \& Contributing Community Member}}
-		{\emph{2006 -- Present}}
+		{\emph{Department Webmaster}}
+		{\emph{2008 - 2010}}
 	\begin{itemize*}
-		\item Ut wisi enim ad minim veniam, quis nostrud exerci tation
-		ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-		\item Duis splople autem vel eum iriure dolor in hendrerit in vulputate
-		velit esse molestie consequat, vel illum dolore eu feugiat nulla
-		facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-		praesent luptatum zzril delenit augue duis dolore te feugait nulla
-		facilisi.
-		\item Nam liber tempor cum soluta nobis eleifend option congue nihil
-		imperdiet doming id quod mazim placerat facer possim assum. Typi non
-		habent claritatem insitam; est usus legentis in iis qui facit eorum
-		claritatem.
-		\item Mirum est notare quam littera gothica, quam nunc putamus parum
-		claram, anteposuerit litterarum formas humanitatis per seacula quarta
-		decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
-		clari, fiant sollemnes in futurum.
+		\item Developed a Drupal module to manage graduate student profiles, greatly
+		speeding up the graduate student review process.
+		\item Maintained and updated custom employment system written in PHP
+		that tracked several hundred student employees.
+		\item Developed a Drupal module to synchronize content across multiple Drupal
+		sites and social networks to allow centralized publication to several different
+		destinations.
+		\item Trained two new webmasters in PHP and Drupal development.
 	\end{itemize*}
 
-	\item
 	\headerrow
-		{\textbf{Example Company Two, Inc.}}
-		{\textbf{Chicago, IL}}
-	\\
-	\headerrow
-		{\emph{Software Consultant, Summer Intern}}
-		{\emph{1999 -- 2004}}
+		{\textbf{Freelance Developer}}
+		{\emph{2010 - Present}}
 	\begin{itemize*}
-		\item Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-		diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-		erat volutpat.
-		\item Ut wisi enim ad minim veniam, quis nostrud exerci tation
-		ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-		\item Nam liber tempor cum soluta nobis eleifend option congue nihil
-		imperdiet doming id quod mazim placerat facer possim assum. Typi non
-		habent claritatem insitam; est usus legentis in iis qui facit eorum
-		claritatem.
+		\item Turned photoshop templates into Drupal themes and wrote several custom Drupal
+			modules for a truck sales website at \url{http://heavytruckswholesale.com}.
+		\item Designed, developed, and depoyed a web application to allow a company to give automatic
+			quotes for used trucks based on the mileage and VIN at \url{http://earlycre.com}.
 	\end{itemize*}
-
 \end{itemize}
 
 
@@ -148,16 +123,15 @@
 
 	\item 
 	\headerrow
-		{\textbf{Somewhere State University}}
-		{\textbf{Somewhere, SM}}
+		{\textbf{Brigham Young University}}
+		{\textbf{Provo, UT}}
 	\\
 	\headerrow
-		{\emph{College of Engineering, B.S. Computer Science}}
-		{\emph{1995 -- 1999}}
+		{\emph{College of Physical and Mathematical Science, B.S. Computer Science, Bioinformatics}}
+		{\emph{2006 -- 2012}}
 	\begin{itemize*}
-		\item Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-		\item Mirum est notare quam littera gothica, quam nunc putamus parum
-		claram.
+		\item Class experience includes network programming, software development, data structures.
+		\item Received a four year academic scholarship.
 	\end{itemize*}
 
 \end{itemize}
@@ -165,15 +139,17 @@
 
 \hrule
 \vspace{-0.4em}
-\subsection*{Core Technical Skills}
+\subsection*{Technical Skills}
 
 \begin{indentsection}{\parindent}
 \hyphenpenalty=1000
 \begin{description*}
 	\item[Languages:]
-	C, \CPP, Java, JavaScript, \LaTeX, Perl, Python, shell script, SQL
-	\item[Open Source Contributions:]
-	Project A, Project B, Project C
+	Ruby, Python, JavaScript, PHP, HTML, CSS, SQL, Java, \CPP, C, \LaTeX
+	\item[Other Skills:]
+	Git, Subversion, Linux
+	\item[Proof of Said Skills:]
+	\href{http://github.com/jergason}{Github}, \href{http://stackoverflow.com/users/78093/jergason}{StackOverflow}
 \end{description*}
 \end{indentsection}
 
